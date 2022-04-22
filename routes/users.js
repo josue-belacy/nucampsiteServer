@@ -11,6 +11,7 @@ router.get('/', function(req, res, next) {
 });
 
 router.post('/signup', (req, res) => {
+    console.log('in the signup')
   User.register(
       new User({username: req.body.username}),
       req.body.password,

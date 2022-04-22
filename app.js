@@ -14,7 +14,7 @@ const partnerRouter = require('./routes/partnerRouter');
 
 const mongoose = require('mongoose');
 
-const url = config.mongoUrl;
+const url = "";
 const connect = mongoose.connect(url, {
   useCreateIndex:true,
   useFindAndModify: false,
