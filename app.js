@@ -14,7 +14,7 @@ const partnerRouter = require('./routes/partnerRouter');
 
 const mongoose = require('mongoose');
 
-const url = "";
+const url = "mongodb+srv://nucamp:nucamp@nucampcluster.gnd6j.mongodb.net/mongodb?retryWrites=true&w=majority";
 const connect = mongoose.connect(url, {
   useCreateIndex:true,
   useFindAndModify: false,
